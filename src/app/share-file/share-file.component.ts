@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @Component({
   selector: 'app-share-file',
@@ -11,6 +12,7 @@ export class ShareFileComponent implements OnInit {
   createdDate!: Date;
   share!: number;
   imageUrl!: string;
+  imageGw!: string;
 
   ngOnInit(): void {
     this.title = 'MOUHAMAD';
@@ -18,6 +20,7 @@ export class ShareFileComponent implements OnInit {
     this.createdDate = new Date();
     this.share = 7; //number of likes
     this.imageUrl = './assets/images/CORAN.jpeg';
+    this.imageGw = './assets/images/guediawaye.jpeg'
   }
 
 }

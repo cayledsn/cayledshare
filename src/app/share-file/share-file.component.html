@@ -12,8 +12,15 @@
       <h2>{{ title }}</h2>
       <p>{{ description }}</p>
 
-      <img id="coran-image" [src]="imageUrl" [alt]="title">
-
+      <img class="cayledshare-image" [src]="imageUrl" [alt]="title">
+      <youtube-player
+        videoId="GYAB4Td62zI"
+        suggestedQuality="highres"
+        [height]="250"
+        [width]="500"
+        [startSeconds]="4"
+        [endSeconds]="8">
+      </youtube-player>
       <p>{{ createdDate }}</p>
       <p> ୰ {{ share }}</p>
     </div>

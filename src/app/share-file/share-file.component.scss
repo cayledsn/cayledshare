@@ -1,9 +1,10 @@
-#coran-image {
+.cayledshare-image {
   border-radius: 100px;
   height: 100px;
   width: 100px;
+  margin: 3px;
 }
-#coran-image:hover {
+.cayledshare-image:hover {
   box-shadow: 1px 1px 3px 1px green;
   transition: 0.5s;
 }
